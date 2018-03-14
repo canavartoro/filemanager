@@ -1,0 +1,45 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+ipch/
+obj/
+platforms/
+[Dd]ebug*/
+[Rr]elease*/
+[Bb]in*/
+Ankh.NoLoad
+
+# SQL Server files
+App_Data/*.mdf
+App_Data/*.ldf
+Mikrobar.Web/*.mdb
+Debug/*.dll
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+*.dll
+.svn/
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+YEDEK/
+Uploads/
+.vscode/
+.xlsx
+.mdb
+.xls
+*.log
+.licx
+.ldb
+*.pdb
+
+# Office Temp Files
+~$*
+/Mikrobar.v11.suo

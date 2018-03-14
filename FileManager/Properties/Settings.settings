@@ -1,0 +1,48 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FileManager.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="orahost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.0.11</Value>
+    </Setting>
+    <Setting Name="oraservis" Type="System.String" Scope="User">
+      <Value Profile="(Default)">uyumtest</Value>
+    </Setting>
+    <Setting Name="argeklasor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\temp</Value>
+    </Setting>
+    <Setting Name="oraport" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1521</Value>
+    </Setting>
+    <Setting Name="branchid" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1010</Value>
+    </Setting>
+    <Setting Name="coid" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">191</Value>
+    </Setting>
+    <Setting Name="userid" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">2773</Value>
+    </Setting>
+    <Setting Name="mailhost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mail.hidromas.com</Value>
+    </Setting>
+    <Setting Name="mailport" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="mailuser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">data@hidromas.com</Value>
+    </Setting>
+    <Setting Name="mailpass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GHidR0m@S</Value>
+    </Setting>
+    <Setting Name="sure" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="hedefklasor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\192.168.0.11\FileUploads</Value>
+    </Setting>
+    <Setting Name="test" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
