@@ -397,7 +397,14 @@ namespace FileManager
                                     OracleParameter[] delParameters = new OracleParameter[2];
                                     delParameters[0] = new OracleParameter(":RELATION_OBJECT", relationObject);
                                     delParameters[1] = new OracleParameter(":RELATION_ID", relationId);
-                                    ora.Exec("DELETE FROM GNLD_UPLOAD_FILE WHERE RELATION_OBJECT = :RELATION_OBJECT AND RELATION_ID = :RELATION_ID", delParameters);
+
+                                    string delExtra = "";
+                                    if (f.Name.IndexOf("UA") != -1)
+                                        delExtra = " AND SH0RT_FILE_NAME LIKE '%UA%' ";
+                                    if (f.Name.IndexOf("OG") != -1)
+                                        delExtra = " AND SH0RT_FILE_NAME LIKE '%OG%' ";
+
+                                    ora.Exec("DELETE FROM GNLD_UPLOAD_FILE WHERE RELATION_OBJECT = :RELATION_OBJECT AND RELATION_ID = :RELATION_ID " + delExtra, delParameters);
                                 }
                                 catch (Exception delexception)
                                 {
