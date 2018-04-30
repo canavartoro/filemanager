@@ -403,6 +403,8 @@ namespace FileManager
                                         delExtra = " AND SH0RT_FILE_NAME LIKE '%UA%' ";
                                     if (f.Name.IndexOf("OG") != -1)
                                         delExtra = " AND SH0RT_FILE_NAME LIKE '%OG%' ";
+                                    if (f.Name.IndexOf("UGTL") != -1)
+                                        delExtra = string.Format(" AND SH0RT_FILE_NAME = '{0}' ", f.Name);
 
                                     ora.Exec("DELETE FROM GNLD_UPLOAD_FILE WHERE RELATION_OBJECT = :RELATION_OBJECT AND RELATION_ID = :RELATION_ID " + delExtra, delParameters);
                                 }
